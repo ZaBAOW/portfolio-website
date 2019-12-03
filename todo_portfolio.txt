@@ -1,0 +1,20 @@
+updates for sites:
+
+BREWFORMER:
+	- update javascript to work with current version of the api (didn't need to)
+	- add a description to the repo (written)
+	- deploy a version to heroku (don't need to, purely front end)
+	- do i need to put a trademark symbol after database title? (probably not)
+
+INVENTATION:
+	- add a footer for all pages (done)
+	- 
+
+REACT_HOMEBREW_GENERATOR:
+	- come up with a better name
+
+COME UP WITH 2-3 SLOGANS AND HERO IMAGES TO GO WITH THEM.
+
+	X discovering improvements and perspectives
+	- driven to learn and improve
+	- there is no problem without a solution
