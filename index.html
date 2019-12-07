@@ -3,32 +3,65 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation"><span>Andrew</span>
+        <ul class='nav-menu'>
+            <li>
+                <a href="#" id='nav-about-me'>About Me</a>
+            </li>
+            <li>
+                <a href="#" id='nav-skills'>Skills</a>
+            </li>
+            <li>
+                <a href="#" id='nav-projects'>Projects</a>
+            </li>
+            <li>
+                <a href="#" id='nav-contact'>Contact</a>
+            </li>
+        </ul>
+    </nav>
     <main role="main">
         <header role="banner">
-        <div class="hero"><h1> Discovering improvements and perspectives</h1></div>
+            <div class="slogan">Changing perspectives to improve solutions</div>
         </header>
 
         <section class="bio">
-            Section 1
+            <h3 class="section-title">About me</h3>
+            <div class="story">
+                Hi, I'm Andrew Kadesky. I'm a fullstack developer and a recent graduate of the Fullstack bootcamp at Thinkful.
+                Problem solving has alaways been something I find impossible to ignore even in subjects im not as well versed in. 
+                Coming from a background of the life sciences I came to the conclusion that the computer sciences would better
+                compliment my preferred workflow.
+                <br>
+                <br>
+                I spend a lot of time on a computer and more specifically on the internet.  Away
+                from the keyboard, I spend a good amount of time up in the snow covered mountains snowbaording and among
+                the chatter of a brew pub tasting and enjoying the local and, when available, international drafts.
+                
+            </div>
+            <img src="dummy_image.png" class="bio-img" alt="">
         </section>
-
+        
         <section class="skills">
-            Section 2
+            <h3 class="section-title">Skills</h3>
+            <div class="skills-container"></div>
         </section>
 
         <section class="projects">
-            Project 3
+            <h3 class="section-title">Projects</h3>
+            <div class="project-container"></div>
         </section>
         
         <section class="contact">
+            <h3 class="section-title">Contact me</h3>
             Section 4
         </section>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info">2019 Anderw Kadesky</footer>
 </body>
 </html>
