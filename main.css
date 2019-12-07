@@ -103,6 +103,22 @@ section h3 {
     background-color: #F4F3F5;
 }
 
+.json-logo {
+    height: 100px;
+}
+
+.postman-logo {
+    height: 100px;
+}
+
+.robo-logo {
+    height: 100px;
+}
+
+.redux-logo {
+    height: 100px;
+}
+
 .projects {
     background-color: #FFFFFF;
 }
