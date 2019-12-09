@@ -136,27 +136,73 @@ section h3 {
 }
 
 .brewformer {
-    
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    height: 350px;
+
 }
 
 .brewformer img {
-    width: 60%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.desc-section {
+    display: inline;
+    
 }
 
 .inventation {
-    
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    height: 350px;
 }
 
 .inventation img {
-    width: 60%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .homebrew {
-    
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    height: 350px;
 }
 
 .homebrew img {
-    width: 60%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.desc {
+    display: inline;
+    font-size: 24px;
+}
+
+.contact {
+    border: 1px solid black;
+}
+
+.contact-info {
+    font-size: 68px;
+    display: inline-block;
+    padding-left: 65px;
+    padding-right: 85px;
 }
 
 footer {
