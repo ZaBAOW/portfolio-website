@@ -135,36 +135,63 @@ section h3 {
     background-color: #F4F3F5;
 }
 
-.brewformer {
+.project-background {
+    background-color: azure;
+    padding-bottom: 5%;
+}
+
+.project-container {
     display: flex;
     width: 60%;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid black;
-    height: 350px;
-
+    background-color: #EEE;
+    border-radius: 5px;
 }
 
-.brewformer img {
+.project-container img {
     width: 50%;
     display: inline-block;
     float: left;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .desc-section {
     display: inline;
-    
+    position: relative;
+    height: 50%;
+    margin-top: 10px;
 }
 
+.project-skills {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.project-skills li {
+    display: inline-block;
+    font-size: 22px;
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px
+}
+
+/*
 .inventation {
     display: flex;
     width: 60%;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid black;
-    height: 350px;
+    background-color: #EEE;
+    border-radius: 5px;
 }
 
 .inventation img {
@@ -173,6 +200,7 @@ section h3 {
     float: left;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .homebrew {
@@ -181,7 +209,8 @@ section h3 {
     margin-right: auto;
     margin-left: auto;
     border: 1px solid black;
-    height: 350px;
+    background-color: #EEE;
+    border-radius: 5px;
 }
 
 .homebrew img {
@@ -190,10 +219,12 @@ section h3 {
     float: left;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
+*/
 
 .desc {
-    display: inline;
+    display: inline-block;;
     font-size: 24px;
 }
 
