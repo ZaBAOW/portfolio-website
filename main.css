@@ -136,6 +136,7 @@ section h3 {
 }
 
 .brewformer {
+    display: flex;
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -158,6 +159,7 @@ section h3 {
 }
 
 .inventation {
+    display: flex;
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -174,6 +176,7 @@ section h3 {
 }
 
 .homebrew {
+    display: flex;
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -203,6 +206,7 @@ section h3 {
     display: inline-block;
     padding-left: 65px;
     padding-right: 85px;
+    padding-top: 20px;
 }
 
 footer {
