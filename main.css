@@ -22,7 +22,7 @@ nav {
 
 nav span {
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 nav ul {
@@ -32,6 +32,7 @@ nav ul {
 
 nav h4, nav ul {
     display: inline-block;
+    margin-top: 15px;
 }
 
 nav li {
@@ -52,15 +53,15 @@ header {
     width: 100%;
     height: 168px;
     margin-top: 47px;
-    position: relative;
 }
 
 .slogan {
-    position: absolute;
-    width: auto;
-    left: 3%;
-    bottom: 3%;
+    width: 100%;
+    padding-top: 400px;
     font-size: 42px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 .hero {
@@ -111,6 +112,12 @@ section h3 {
     background: white;
 }
 
+.skills-container img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
 .json-logo {
     height: 100px;
 }
@@ -135,6 +142,18 @@ section h3 {
     background-color: #F4F3F5;
 }
 
+.project-title {
+    margin-right: 49%;
+}
+
+.homebrew-title {
+    margin-right: 41%;
+}
+
+.project-section {
+    padding-top: 20px;
+}
+
 .project-background {
     background-color: azure;
     padding-bottom: 5%;
@@ -145,6 +164,7 @@ section h3 {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 5px;
     border: 1px solid black;
     background-color: #EEE;
     border-radius: 5px;
@@ -157,6 +177,10 @@ section h3 {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.project-container a {
+    
 }
 
 .desc-section {
@@ -175,12 +199,26 @@ section h3 {
     display: inline-block;
     font-size: 22px;
     border: 1px solid black;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 5px;
-    margin-bottom: 5px
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        
+}
+
+.project-container a {
+    text-decoration: none;
+    background-color: #AAA;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid black
 }
 
 /*
