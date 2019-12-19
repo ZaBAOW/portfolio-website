@@ -336,6 +336,23 @@ footer {
     header {
         height: 568px;
     }
+    
+    .project-container {
+        display: block;
+    }
+    
+    .project-container img {
+        float: none;
+        width: 90%;
+    }
+    
+    .homebrew-title {
+        margin-right: 0%;
+    }
+    
+    .project-title {
+        margin-right: 0%;
+    }
 }
 
 
