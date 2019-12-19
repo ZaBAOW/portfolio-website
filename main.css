@@ -353,6 +353,16 @@ footer {
     .project-title {
         margin-right: 0%;
     }
+    
+    .story {
+        text-align: center;
+        width: 75%;
+    }
+    
+    .bio-img {
+        display: block;
+        margin-left: 30%;
+    }
 }
 
 
