@@ -302,7 +302,7 @@ footer {
     padding-bottom: 10px;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
     body {
         color: purple;
     }
@@ -310,12 +310,34 @@ footer {
     header {
         height: 368px;
     }
+    
+    .project-container {
+        display: block;
+    }
+    
+    .project-container img {
+        float: none;
+        width: 90%;
+    }
+    
+    .homebrew-title {
+        margin-right: 0%;
+    }
+    
+    .project-title {
+        margin-right: 0%;
+    }
+    
+    .slogan {
+        padding-top: 230px;
+        font-size: 28px;
+    }
 }
 
 
 /*iPhone landscape*/
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     body {
         color: green;
     }
@@ -358,7 +380,7 @@ footer {
 
 /*ipad potrait*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width 1023px) {
     body {
         color: red;
     }
@@ -398,7 +420,7 @@ footer {
 
 /*ipad lanscape / small laptop*/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1419px) {
     body {
         color: blue;
     }
@@ -416,5 +438,6 @@ footer {
 @media only screen and (min-width: 1420px) {
     .project-container {
         width: 60%;
+        display: flex;
     }
 }
