@@ -309,6 +309,11 @@ footer {
     
     header {
         height: 368px;
+        margin-top: 145px;
+    }
+    
+    section {
+        padding-top: 129px;
     }
     
     .project-container {
@@ -375,18 +380,19 @@ footer {
         padding-right: 10px;
         padding-left: 10px;
     }
+    
 }
 
 
 /*ipad potrait*/
 
-@media only screen and (min-width: 768px) and (max-width 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {
         color: red;
     }
-    
     header {
-        height: 568px;
+       height: 100%;
+       margin-top: 77px; 
     }
     
     .project-container {
@@ -406,14 +412,8 @@ footer {
         margin-right: 0%;
     }
     
-    .story {
-        text-align: center;
-        width: 75%;
-    }
-    
-    .bio-img {
-        display: block;
-        margin-left: 30%;
+    .bio-title {
+        margin-left: 4%;
     }
 }
 
