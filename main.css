@@ -303,10 +303,6 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    body {
-        color: purple;
-    }
-    
     
     header {
         height: 368px;
@@ -365,9 +361,6 @@ footer {
 /*iPhone landscape*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        color: green;
-    }
     
     header {
         height: 468px;
@@ -413,9 +406,7 @@ footer {
 /*ipad potrait*/
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        color: red;
-    }
+
     header {
        height: 500px;
        margin-top: 77px; 
@@ -461,9 +452,6 @@ footer {
 /*ipad lanscape / small laptop*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1419px) {
-    body {
-        color: blue;
-    }
     
     header {
         height: 668px;
