@@ -307,6 +307,7 @@ footer {
         color: purple;
     }
     
+    
     header {
         height: 368px;
         margin-top: 145px;
@@ -340,10 +341,23 @@ footer {
     
     .story {
         text-align: center;
+        font-size: 70%;
     }
     
     .bio-img {
         height: 261px;
+    }
+    
+    .desc {
+        font-size: 70%;
+    }
+    
+    .project-skills li {
+        font-size: 70%;
+    }
+    
+    footer {
+        font-size: 70%;
     }
 }
 
