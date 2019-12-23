@@ -337,6 +337,14 @@ footer {
         padding-top: 230px;
         font-size: 28px;
     }
+    
+    .story {
+        text-align: center;
+    }
+    
+    .bio-img {
+        height: 261px;
+    }
 }
 
 
@@ -381,6 +389,10 @@ footer {
         padding-left: 10px;
     }
     
+    .story {
+        text-align: center;
+    }
+    
 }
 
 
@@ -418,6 +430,16 @@ footer {
     
     .slogan {
         padding-top: 312px;
+    }
+    
+    .bio-img {
+        display: block;
+        height: 287px;
+        margin-left: 33%;
+    }
+    
+    .story {
+        text-align: center;
     }
 }
 
