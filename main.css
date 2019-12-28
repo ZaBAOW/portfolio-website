@@ -275,6 +275,7 @@ footer {
     
     .project-container {
         display: block;
+        width: 90%;
     }
     
     .project-container img {
@@ -298,6 +299,7 @@ footer {
     .story {
         text-align: center;
         font-size: 70%;
+        width: 83%;
     }
     
     .bio-img {
