@@ -152,6 +152,10 @@ section h3 {
     margin-right: 41%;
 }
 
+.raid-title {
+    margin-right: 45%;
+}
+
 .project-section {
     padding-top: 20px;
 }
@@ -288,8 +292,12 @@ footer {
         margin-right: 0%;
     }
     
-    .project-title {
+    .raid-title {
         margin-right: 0%;
+    }
+    
+    .project-title {
+        margin-right: 1%;
     }
     
     .slogan {
